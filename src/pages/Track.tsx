@@ -13,24 +13,24 @@ import L from "leaflet";
 
 // Ship icons (for blinking effect)
 const shipIcon1 = new L.Icon({
-  iconUrl: "/ship-icon1.png",
+  iconUrl: "ship-icon1.png",
   iconSize: [40, 40],
 });
 
 const shipIcon2 = new L.Icon({
-  iconUrl: "/ship-icon2.png",
+  iconUrl: "ship-icon2.png",
   iconSize: [40, 40],
 });
 
 // Starting position icon
 const startIcon = new L.Icon({
-  iconUrl: "/start-icon2.png",
+  iconUrl: "start-icon2.png",
   iconSize: [40, 40],
 });
 
 // Destination icon
 const destinationIcon = new L.Icon({
-  iconUrl: "/destination-icon.png",
+  iconUrl: "destination-icon.png",
   iconSize: [30, 30],
 });
 
