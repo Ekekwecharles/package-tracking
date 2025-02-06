@@ -1,9 +1,17 @@
+// export interface TrackingData {
+//   code: string;
+//   destination: string;
+//   destinationCoords: { lat: number; lng: number };
+//   currentPosition: {
+//     lat: number;
+//     lng: number;
+//   };
+//   progress: number;
+// }
+
 export interface TrackingData {
-  code: string;
+  currentPosition: { lat: number; lng: number };
   destination: string;
-  currentPosition: {
-    lat: number;
-    lng: number;
-  };
-  progress: number;
+  destinationCoords: { lat: number; lng: number };
+  startPosition?: { lat: number; lng: number };
 }
