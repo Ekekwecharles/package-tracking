@@ -1,5 +1,4 @@
 import { useState } from "react";
-// import { db, addDoc, collection } from "../firebase";
 import { db } from "../firebase";
 import { doc, setDoc } from "firebase/firestore";
 

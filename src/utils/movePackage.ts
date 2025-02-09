@@ -41,8 +41,9 @@
 //   });
 // };
 
-import { db, doc, getDoc, updateDoc } from "../firebase";
+import { db } from "../firebase";
 import { TrackingData } from "../types";
+import { doc, getDoc, updateDoc } from "firebase/firestore";
 
 export const movePackage = async (trackingCode: string) => {
   const docRef = doc(db, "tracking", trackingCode);
@@ -55,6 +56,7 @@ export const movePackage = async (trackingCode: string) => {
     "South Korea": [
       [40.7128, -74.006], // New York
       [9.1012, -79.6952], // Panama Canal
+      [1.3521, 103.8198], // **Port of Singapore
       [-8.3405, 115.092], // Bali, Indonesia
       [33.5892, 130.4017], // Fukuoka, Japan
       [35.1796, 129.0756], // Busan, South Korea

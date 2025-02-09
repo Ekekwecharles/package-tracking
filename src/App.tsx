@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Admin from "./pages/Admin";
 import Track from "./pages/Track";
 // import { movePackage } from "./utils/movePackage";
@@ -14,13 +14,13 @@ const App: React.FC = () => {
   // }, 600000);
 
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
         <Route path="/admin" element={<Admin />} />
         <Route path="/track" element={<Track />} />
         <Route path="/update" element={<Update />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 };
 

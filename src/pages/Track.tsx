@@ -6,7 +6,8 @@ import {
   Polyline,
   Popup,
 } from "react-leaflet";
-import { db, doc, getDoc } from "../firebase";
+import { db } from "../firebase";
+import { doc, getDoc } from "firebase/firestore";
 import { TrackingData } from "../types";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
@@ -46,6 +47,7 @@ const Track: React.FC = () => {
     "South Korea": [
       [40.7128, -74.006], // New York
       [9.1012, -79.6952], // Panama Canal
+      [1.3521, 103.8198], // **Port of Singapore
       [-8.3405, 115.092], // Bali, Indonesia
       [33.5892, 130.4017], // Fukuoka, Japan
       [35.1796, 129.0756], // Busan, South Korea

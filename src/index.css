@@ -50,7 +50,8 @@ button:hover {
   align-items: center;
 }
 
-input {
+input,
+select {
   padding: 6px 0 6px 10px;
   font-size: 18px;
 }
@@ -82,3 +83,17 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+@media (max-width: 37.5em) {
+  h1 {
+    font-size: 2em;
+  }
+
+  button {
+    font-size: 1.05em;
+  }
+
+  input {
+    font-size: 13px;
+  }
+}
