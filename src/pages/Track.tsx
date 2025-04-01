@@ -58,6 +58,16 @@ const Track: React.FC = () => {
       [42.3601, -71.0589], // Boston
       [51.5074, -0.1278], // London
     ],
+    Iraq: [
+      [40.684, -74.0419], // Port of New York and New Jersey, USA
+      [36.1264, -5.4419], // Port of Algeciras, Spain
+      [38.4225, 15.8986], // Port of Gioia Tauro, Italy
+      [37.9474, 23.6371], // Port of Piraeus, Greece
+      [31.2653, 32.3019], // Port Said, Egypt
+      [21.4858, 39.1925], // Port of Jeddah, Saudi Arabia
+      [25.0144, 55.0653], // Port of Jebel Ali, UAE
+      [30.0534, 47.9376], // Port of Umm Qasr, Iraq
+    ],
   };
 
   // Toggle ship icon every second (for blinking effect)

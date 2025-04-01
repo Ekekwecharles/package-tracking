@@ -7,6 +7,7 @@ const destinations: { [key: string]: { lat: number; lng: number } } = {
   "United Kingdom": { lat: 51.5074, lng: -0.1278 },
   Japan: { lat: 35.682839, lng: 139.759455 },
   Germany: { lat: 52.520008, lng: 13.404954 },
+  Iraq: { lat: 30.0534, lng: 47.9376 },
 };
 
 const Admin: React.FC = () => {
