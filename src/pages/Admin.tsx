@@ -8,6 +8,7 @@ const destinations: { [key: string]: { lat: number; lng: number } } = {
   Japan: { lat: 35.682839, lng: 139.759455 },
   Germany: { lat: 52.520008, lng: 13.404954 },
   Iraq: { lat: 30.0534, lng: 47.9376 },
+  Peru: { lat: -12.05, lng: -77.15 },
 };
 
 const Admin: React.FC = () => {

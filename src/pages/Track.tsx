@@ -68,6 +68,15 @@ const Track: React.FC = () => {
       [25.0144, 55.0653], // Port of Jebel Ali, UAE
       [30.0534, 47.9376], // Port of Umm Qasr, Iraq
     ],
+    Peru: [
+      [40.684, -74.0419], // Port of New York and New Jersey, USA
+      [25.7743, -80.1793], // Port of Miami, USA
+      [18.4273, -66.109], // Port of San Juan, Puerto Rico
+      [9.359, -79.899], // Port of Colón, Panama (Atlantic side, Panama Canal)
+      [8.951, -79.566], // Port of Balboa, Panama (Pacific side, Panama Canal)
+      [-5.1, -81.11], // Port of Paita, Peru (northern Peru)
+      [-12.05, -77.15], // Port of Callao, Peru (Lima - main port)
+    ],
   };
 
   // Toggle ship icon every second (for blinking effect)
